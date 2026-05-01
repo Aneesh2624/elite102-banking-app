@@ -13,24 +13,18 @@ A command-line banking system built with Python and SQLite.
 
 ## Setup
 
-**Requirements:** Python 3 (SQLite is built in — nothing to install)
+**Requirements:** Python 3 (SQLite is built in, nothing to install)
 
 **Run the app:**
 ```bash
 python3 bank.py
 ```
 
-**Run the tests:**
-```bash
-python3 test_bank.py
-```
-
 ## Files
 
 | File | Description |
 |------|-------------|
-| `bank.py` | Main app — run this to use the banking system |
-| `test_bank.py` | Unit tests for all core functions |
+| `bank.py` | Main app, run this to use the banking system |
 | `bank.db` | SQLite database (auto-created on first run) |
 
 ## How to Use
@@ -56,5 +50,6 @@ Just type the number and hit Enter. Follow the prompts.
 
 ## Database Tables
 
-**accounts** — stores account holder name and balance
-**transactions** — logs every deposit, withdrawal, and transfer with a timestamp
+**accounts** - stores account holder name and balance
+
+**transactions** - logs every deposit, withdrawal, and transfer with a timestamp
